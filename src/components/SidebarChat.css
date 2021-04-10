@@ -1,0 +1,25 @@
+.sidebarChat {
+   
+  
+    transition: 0.3s;
+    
+}
+
+.sidebarChat:hover {
+  background-color:lightgrey;
+}
+
+
+.addNew {
+    text-align:center;
+    font-weight: bold !important;
+}
+.addNew > .MuiTypography-body1 {
+    font-weight: 700 !important;
+    font-size: 1.3rem !important;
+}
+
+.sidebar__link {
+    text-decoration: none;
+    color: #000;
+}

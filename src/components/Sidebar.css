@@ -1,0 +1,76 @@
+.sidebar {
+    display:flex;
+    flex-direction:column;
+    
+    flex: 0.30;
+}
+
+.sidebar__header {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    border-right: 1px solid lightgrey;
+    background-color:#EDEDED;
+    min-width:  270px;
+}
+
+.sidebar__header__avatar {
+    margin-left: 10px;
+}
+.sidebar__headerRight {
+    display:flex;
+    margin-left: auto;
+   padding: 0 20px;
+    
+}
+
+.sidebar__headerRight > .MuiIconButton-root {
+       color: gray !important;
+} 
+
+.sidebar__search {
+    display:flex;
+    height:45px;
+    align-items:center;
+    background-color: #F6F6F6;
+    padding:10px
+}
+
+.sidebar__searchContainer{
+    display:flex;
+    align-items:center;
+    background-color: white;
+    width:100%;   
+    height: 30px;
+    border-radius:20px;
+   
+}
+
+.sidebar__searchContainer > .MuiSvgIcon-root {
+    color:gray;
+    padding:10px;
+    font-size:40px;
+}
+.sidebar__searchContainer > input {
+    border: none;
+    outline-width: 0;
+    margin-left: 10px;
+}
+
+input {
+    flex: 0.9;
+}
+
+.sidebar__chat {
+    overflow-y: scroll;
+}
+
+.sidebar__chat::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sidebar__chat {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
